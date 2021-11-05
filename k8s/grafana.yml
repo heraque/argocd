@@ -105,7 +105,7 @@ metadata:
     app.kubernetes.io/version: "latest"
     app.kubernetes.io/managed-by: Helm
 spec:
-  replicas: 2
+  replicas: 5
   revisionHistoryLimit: 10
   selector:
     matchLabels:
